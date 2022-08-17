@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/tawakullogo.jpg">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tawwakul</title>
+</head>
+<body>
+    
+    <div id="navigation-section">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+                <a class="navbar-brand text-white fw-normal display-1" href="#"><img src="img/tawakullogo.jpg" class="image-fluid mx-auto w-100 rounded d-block" height="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#portfolio-section">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about-section">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                REGISTER WITH US
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="individual.html">Register as Individual</a></li>
+                                <li><a class="dropdown-item" href="corporate.html">Register as Corporate</a></li>
+                                <li><a class="dropdown-item" href="fee.html">Registration Fee</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="login.html">LOGIN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#packages">PACKAGES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#membership">MEMBERSHIP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#management">MANAGEMENT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#commitees">COMMITTEE</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="training.html">TRAINING</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+<div align="center" class=" container">
+    <div >
+    <form action="#" method="post" enctype="multipart/form-data" name="form1" onsubmit="return validateSavings()">
+    <table width="70%" class="table-bordered" align="center">
+    <tbody><tr class="warning" bgcolor="#639">
+      
+      <td><h6><font color="#FFFFFF"><center>
+        <strong>
+      TAWAKKUL INSTITUTE OF CORPORATE AND COOPERATIVE STUDIES<br>TRAINING APPLICATION FORM</strong>
+      </center></font></h6></td>
+      
+    </tr>
+     <tr bgcolor="#F9F">
+   <td><strong>TITLE: </strong>
+      <input type="text" name="title" id="title" class="form-control" placeholder="Enter Title"></td></tr>
+    
+         <tr bgcolor="#FFFF99">
+      <td><strong>FIRSTNAME: </strong>
+        <label for="firstName"></label>
+      <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name" required=""></td></tr>
+       <tr bgcolor="#F9F"><td><strong>MIDDLE NAME(If available): </strong>
+      <input type="text" name="middleName" id="middleName" class="form-control" placeholder="Middle Name"></td></tr>
+       <tr bgcolor="#FFFF99"><td><strong>SURNAME: </strong>
+      <input type="text" name="surname" id="surname" class="form-control" placeholder="Surname" required=""></td></tr>
+    
+    <tr bgcolor="#F9F">
+   <td><strong>ARE YOU A MEMBER OF ANY COOPERATIVE? IF YES WHAT IS THE NAME OF THE COOPERATIVE: </strong>
+      <input type="text" name="cop" id="cop" class="form-control" placeholder="Enter Cooperative Name"></td></tr>
+    
+     <tr bgcolor="#FFFF99">
+   <td><strong>ARE YOU A TAWAKKUL MEMBER? IF YES ENTER YOUR MEMBERSHIP NUMBER </strong>
+      <input type="text" name="membno" id="membno" class="form-control" placeholder="Enter Membership Number"></td></tr>
+    
+      <tr bgcolor="#F9F">
+      <td><strong>Gender: </strong>
+        <select name="gender" id="select" class="form-control" placeholder="Gender" required="required">
+          <option></option>
+          <option>Male</option>
+          <option>Female</option>
+       </select></td>
+      
+      
+    </tr>
+    <tr bgcolor="#FFFF99">
+    <td><strong>PHONE NUMBER (Whatsapp):</strong> 
+      <input type="number" name="phoneNumber" id="PhoneNumber" class="form-control" placeholder="Enter Phone Number" required=""></td>
+    </tr>
+    <tr bgcolor="#F9F">
+      
+      <td> <strong>EMAIL:</strong>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required=""></td>
+    </tr>
+     <tr bgcolor="#F9F">
+      <td><strong>CHOOSE TRAINING MODE: </strong>
+        <select name="training_mode" id="select" class="form-control" placeholder="Mode" required="required">
+          <option></option>
+          <option value="online">Online training</option>
+          <option value="physical">Physical training</option>
+       </select></td>
+     </tr>   
+     <tr bgcolor="#FF0000">
+    <td colspan="3"><strong><font color="#FFFFFF" size="+2">CHOOSE PROGRAM</font></strong>
+      <select name="course" type="text" id="course" class="form-control" placeholder="Course" required="">
+      <option></option>
+     
+
+<option>Certificate in Cooperative Accounting and Aud Practice</option>
+<option>Certificate in Cooperative Administration and Management Practices</option> 
+<option>Certificate in Cooperative Disputes Resolution System</option>
+<option>Certificate in Cooperative Entrepreneurship</option>
+<option>Certificate in Cooperative Fund Structuring and Management</option>
+<option>Certificate in Cooperative Governance</option>
+<option>Certificate in Cooperative Innovations and Development Initiatives</option>
+<option>Certificate in Cooperative International Best Practices</option>
+<option>Certificate in Cooperative Investment</option>
+<option>Certificate in Cooperative Law and Practice</option>
+<option>Certificate in Cooperative Management</option>
+<option>Certificate in Cooperative Online Management System</option>
+<option>Certificate in Cooperative Record and Book Keeping</option>
+<option>Certificate in Cooperative Savings and Loans Practices</option>
+<option>Certificate in Cooperative Studies </option>
+<option>Certificate in Cooperative Taxation</option>
+<option>Certificate in Islamic Comparative Cooperative Studies</option>
+<option>Certificate in Islamic Cooperative Accounting and Audit Practices</option>
+<option>Certificate in Islamic Cooperative Administration and Management Practices</option>
+<option>Certificate in Islamic Cooperative Dispute Resolution Skills and Practices</option>
+<option>Certificate in Islamic Cooperative Entrepreneurship</option>
+<option>Certificate in Islamic Cooperative Financing Skills and Practices</option>
+<option>Certificate in Islamic Cooperative Fintech</option>
+<option>Certificate in Islamic Cooperative Fund Structuring and Management</option>
+<option>Certificate in Islamic Cooperative Governance</option>
+<option>Certificate in Islamic Cooperative Innovations and Development Initiatives</option>
+<option>Certificate in Islamic Cooperative International Best Practices</option>
+<option>Certificate in Islamic Cooperative Investment</option>
+<option>Certificate in Islamic Cooperative Law and Practice</option>
+<option>Certificate in Islamic Cooperative Management</option>
+<option>Certificate in Islamic Cooperative Management And Practice</option>
+<option>Certificate in Islamic Cooperative Management Skills</option>
+<option>Certificate in Islamic Cooperative Products</option>
+<option>Certificate in Islamic Cooperative Record and Book Keeping</option> 
+<option>Certificate in Islamic Cooperative Regulations</option>
+<option>Certificate in Islamic Cooperative Savings and Loans Practices</option>
+<option>Certificate in Islamic Cooperative Shari'ah Compliance Principles and Practice</option> 
+<option>Certificate in Islamic Cooperative Studies</option>
+<option>Certificate in Islamic Cooperative Zakah</option>
+<option>Certificate in National and International Cooperative Institutions Studies</option>
+<option>Certificate in National and International Islamic Cooperative Institutions Studies</option>
+<option>Certificate in Shari'ah Audit for Islamic Cooperatives</option>
+<option>Certificate in Shari'ah Governance for Islamic Cooperatives</option>
+
+      </select></td>
+    </tr>
+    <tr bgcolor="#FFFF99">
+    <td colspan="3"><strong>CONTACT ADDRESS: </strong>
+      <input name="contactAddress" type="text" id="contactAddress" size="70" class="form-control" placeholder="Contact Address" required=""></td>
+    </tr>
+    
+    <tr bgcolor="#F9F">
+    <td><strong>NAME AS SHOULD APPEAR ON THE CERTIFICATE: </strong>
+      <input name="certName" type="text" id="certName" size="70" class="form-control" placeholder="NAME AS WOULD APPEAR ON THE CERTIFICATE" required=""></td>
+    </tr>
+    <tr bgcolor="#FFFF99">  
+      <td>
+        <label for="fileField"></label>
+       <strong> Upload Passport</strong>
+        <input type="file" name="passport" class="form-control" id="passport">
+     </td>
+      
+    </tr>
+    <tr bgcolor="#F9F">
+      <td>
+        <label for="evidence"></label>
+        <strong>Upload evidence of payment </strong>
+        <input type="file" name="evidence" class="form-control" id="evidence">
+     </td>
+      
+    </tr>
+ 
+     <tr bgcolor="#FFFF99">
+      <td>
+        <p align="center">Declaration.<br>
+        </p>
+        <p align="center">        I hereby declare that all information supplied above is true and correct and if any is found to be false, the institute can disqualify me from the trianing. I agree that by submitting this form, I hereby append my signature. <br> 
+        </p>
+      <p align="center"><input name="agree" type="checkbox" id="agree" value=""></p></td>
+      
+    </tr>    
+    <tr bgcolor="#FF9999">
+      <td><center> <input type="submit" class="btn btn-success" value="Submit" onclick="validateAgreement()" name="register"></center></td>
+      
+    </tr>
+  </tbody></table>
+</form>
+</div>
+</div>
+
+
+
+ <footer class="footer mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4>Our  Office</h4>
+                <p>Tawakul Hubs<br>
+                FLAT 2, 2ND FLOOR<br>
+                CHIEF OKAFOR HOUSE<br>
+                ADJACENT FIRST BANK MINI BUILDING<br>
+                BESIDE LOVIDA PHARMACY<br>
+                36, TAIWO ISALE ROAD, ILORIN</p>
+                <p> <span class="iconify text-light" data-icon="ant-design:phone-outlined"></span>President: 07038998357<br> Admin: 08156551579</p>
+                <p><span class="iconify" data-icon="akar-icons:envelope"></span> email: tawakkul.cooperative@gmail.com or info@tawakkul.org.ng</p>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="d-flex flex-column align-items-center">
+                    <div class="icon-contact mb-3 border rounded-pill" style="background:#C3C"><span class="iconify display-5 mx-2 my-2"            data-icon="ic:baseline-phone-iphone"></span></div>
+                        <div class="text-muted">Phone</div>
+                        <div class="lead font-weight-bold">Founder: 07038998357 <br>
+                      Admin: 08156551579.</div>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="icon-contact mb-3 mt-2 border rounded-pill" style="background:#C3C"><span class="iconify display-5 mx-2 my-2" data-icon="akar-icons:envelope"></div>
+                        <div class="text-muted">email</div><a class="lead text-decoration-none font-weight-bold" href="mailto:name@example.com">info@tawakkul.org.ng</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h3 class="mb-4 ">AROUND THE WEB</h3><a class="btn btn-social mx-1" href="https://www.facebook.com/tawakkul.cooperative"><iconify-icon class="display-5" icon="et:facebook" style="color: white;"></iconify-icon></a><a class="btn  btn-social mx-1" href="https://www.twitter.com/TawakkulCoop?s=08"><span class="iconify display-5" data-icon="et:twitter" style="color: white;"></span></a><a class="btn btn-social mx-1" href="https://www.youtube.com/channel/UCnONw-l96FNHr-jnfFf4N4Q"><iconify-icon class="display-4" icon="jam:youtube-circle" style="color: white;"></iconify-icon></span></span></a>
+                </div>
+        </div>
+         
+    </div>
+</footer>
+<section class="copyright py-4 text-center text-white">
+    <div class="container"><small class="pre-wrap "><strong>Copyright © 2022 <a href="" class="text-decoration-none">Tawakkul Multipurpose Cooperative Society Ltd</a>.</strong> All rights reserved. 
+    <br></small></div>
+</section>
+
+
+
+<script src="https://code.iconify.design/iconify-icon/1.0.0-beta.2/iconify-icon.min.js"></script>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

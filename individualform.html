@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/tawakullogo.jpg">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tawwakul</title>
+</head>
+<body>
+    
+  <div id="navigation-section">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+            <a class="navbar-brand text-white fw-normal display-1" href="#"><img src="img/tawakullogo.jpg" class="image-fluid mx-auto w-100 rounded d-block" height="100"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#portfolio-section">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about-section">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            REGISTER WITH US
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="individual.html">Register as Individual</a></li>
+                            <li><a class="dropdown-item" href="corporate.html">Register as Corporate</a></li>
+                            <li><a class="dropdown-item" href="fee.html">Registration Fee</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="login.html">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#packages">PACKAGES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#membership">MEMBERSHIP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#management">MANAGEMENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#commitees">COMMITTEE</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="training.html">TRAINING</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <div class="container d-flex justify-content-center align-items-center py-1 ">
+        <div class="border">
+            <h3 class=" text-center text-light bg-secondary">INDIVIDUAL APPLICATION FORM</h3>
+            <p class="text-center note">I wish to express my interest in the membership of your cooperative and I shall be glad to become a member. Kindly take note of the following information about me:</p>
+            <form>
+                <div class="form-group border yel p-2">
+                    <label for="inputName">Please enter your membership number if you are an existing Member Or enter Nill if you are not. </label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Your Name" required="">
+                </div>
+                <div class="d-flex form-group border yel p-2">
+                    <div class="col-md-4 mt-2 border form-group">
+                        <label for="inputTitle">TITLE:</label>
+                        <input type="text" class="form-control" id="inputTitle" placeholder="Title" required="">
+                    </div>
+                    <div class="col-md-8 mt-2 border form-group">
+                        <label for="inputAge">Age:</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Age" required="">
+                    </div>
+                </div>
+                 <div class="d-flex border pink p-2">
+                    <div class="col-md-4 border mt-2 form-group">
+                        <label for="">Gender:</label>
+                        <select name="gender" id="select" class="form-control" placeholder="Gender" required="required">
+                            <option></option>
+                            <option>Male</option>
+                            <option>Female</option>
+                         </select>
+                    </div>
+                    <div class="col-md-8 border mt-2 form-group">
+                        <label for="inputDob">Date of Birth:</label>
+                        <input type="date" class="form-control" id="inputDob" placeholder="" required="">
+                    </div>
+                </div>
+                <div class="d-flex form-group border yel p-2">
+                    <div class="col-md-4 border mt-2 form-group">
+                        <label for="inputFname">FIRST/PERSONAL NAME: </label>
+                        <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name" required="">
+                    </div>
+                    <div class="col-md-4 border mt-2 form-group">
+                        <label for="inputMname">MIDDLE NAME(If available):</label>
+                        <input type="text" name="middleName" id="middleName" class="form-control" placeholder="Middle Name">
+                    </div>
+                    <div class="col-md-4 mt-2 form-group">
+                        <label for="inputLname">SURNAME:</label>
+                        <input type="text" name="surname" id="surname" class="form-control" placeholder="Surname" required="">
+                    </div>
+                </div>
+                <div class="mt-2 form-group border pink p-2">
+                    <label for="rAdd">CURRENT RESIDENCE ADDRESS:</label>
+                    <input type="text" name="" id="rAdd" class="form-control" placeholder="CURRENT RESIDENCE ADDRESS" required="">
+                </div>
+                <div class="mt-2 form-group  border yel p-2">
+                    <label for="pAdd">PERMANENT HOME ADDRESS (in Nigeria):</label>
+                    <input type="text" name="" id="rAdd" class="form-control" placeholder="PERMANENT HOME ADDRESS" required="">
+                </div>
+                <div class="d-flex pink ">
+                    <div class="col-md-8 border form-group">
+                        <label for="occ">OCCUPATION:</label>
+                        <input type="text" class="form-control" id="occ" placeholder="OCCUPATION" required="">
+                    </div>
+                    <div class="col-md-4 border  form-group">
+                        <label for="inputrk">RANK/POSITION:</label>
+                        <input type="text" class="form-control" id="inputrk" placeholder="RANK/POSITION" required="">
+                    </div>
+                </div>
+                <div class="mt-2 form-group border yel p-2">
+                    <label for="wAdd">CURRENT PLACE OF WORK ADDRESS:</label>
+                    <input type="text" name="" id="rAdd" class="form-control" placeholder="CURRENT PLACE OF WORK ADDRESS:" required="">
+                </div>
+                <div class="mt-2 form-group border pink p-2">
+                    <label for="pass">Passport </label>
+                    <input type="file" name="" id="pass" class="form-control" placeholder="" required="">
+                </div>
+            </form>
+            <div class="container mt-3">
+            <div class="row">
+                <div class="col-lg-12">
+                   
+                    <table class="table table1 table-responsive table-bordered table-condensed table-hover">
+                        <tbody><tr bgcolor="#639">
+                        <td  align="center"><strong><font color="#FFFFFF">S/N</font></strong></td>
+                           <td align="center"> <strong><font color="#FFFFFF">MEMBERSHIP CATEGORY</font></strong></td>
+                           <td align="center"> <strong><font color="#FFFFFF">BASIC SHARES</font></strong></td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="center"> <strong><font color="#FFFFFF">COST OF BASIC SHARES</font></strong></td>
+                           <td align="center"> <strong><font color="#FFFFFF">MEMBERSHIP APPLICATION FEE</font></strong></td>
+                           <td align="center"> <strong><font color="#FFFFFF">MAXIMUM SHARES POSSIBLE</font></strong></td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="center"> <strong><font color="#FFFFFF">COST OF MAXIMUM SHARES</font></strong></td>
+                         </tr>
+                         <tr bgcolor="#FFFF99">
+                         <td align="Left">1</td>
+                           <td align="Left">A+ (Corporate)</td>
+                           <td align="Left">100</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦100,000:00k</p></td>
+                           <td align="Left"><p>₦10,000:00k</p></td>
+                           <td align="Left">10,000</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦10,000,000</p></td>
+                         </tr>
+                         <tr bgcolor="#F9F">
+                         <td align="Left">2</td>
+                           <td align="Left">A+ (Individual)</td>
+                           <td align="Left">50</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦50,000:00k</p></td>
+                           <td align="Left"><p>₦5,000:00k</p></td>
+                           <td align="Left">5,000</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦5, 000,000</p></td>
+                         </tr>
+                         <tr bgcolor="#FFFF99">
+                         <td align="Left">2</td>
+                           <td align="Left">A</td>
+                           <td align="Left">30</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦30,000:00k</p></td>
+                           <td align="Left"><p>₦2,500:00k</p></td>
+                           <td align="Left">3,000</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦3, 000,000</p></td>
+                         </tr>
+                         <tr bgcolor="#F9F">
+                           
+                           <td align="Left">3</td>
+                           <td align="Left">B</td>
+                           <td align="Left">20</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦20,000:00k</p></td>
+                           <td  align="Left"><p>₦2,000:00k</p></td>
+                           <td align="Left">2,000</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦2, 000,000</p></td>
+                         </tr>
+                           <tr bgcolor="#FFFF99"><td align="Left">4</td>
+                           <td align="Left">C</td>
+                           <td align="Left">10</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦10,000:00k</p></td>
+                           <td align="Left"><p>₦1,500:00k</p></td>
+                           <td align="Left">1,000</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦1, 000,000</p></td>
+                         </tr>
+                         <tr bgcolor="#F9F">
+                           <td align="Left">5</td>
+                           <td align="Left">D</td>
+                           <td align="Left">5</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦5,000:00k</p></td>
+                           <td align="Left"><p>₦1,000:00k</p></td>
+                           <td align="Left">500</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦500,000</p></td>
+                         </tr>
+                           <tr bgcolor="#FFFF99"><td align="Left">6</td>
+                           <td align="Left">E</td>
+                           <td align="Left">2</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦2,000:00k</p></td>
+                           <td align="Left"><p>₦500:00k</p></td>
+                           <td align="Left">200</td>
+                           <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦200,000</p></td>
+                         </tr>
+                       </tbody>
+                    </table>
+
+                  
+                </div>
+            </div>
+            </div>
+            <form>
+                <div class="form-group border yel p-2">
+                    <label for="inputNum">INTENDED NUMBER OF SHARES (Not less than two at ₦1, 000: 00k per Share)  </label>
+                    <input type="number" class="form-control" id="inputName" placeholder="INTENDED NUMBER OF SHARES to buy " required="">
+                </div>
+                <table>
+                    <tr bgcolor="#F9F">
+                        <td class="border p-2"><strong>INTENDED MEMBERSHIP CATEGORY 
+                            <select name="selectCategory" id="category" class="form-control" placeholder="Select Category" required="required">
+                              <option></option>
+                              <option value="A+Corporate">A+ Corporate</option>
+                              <option value="A+Individual">A+ Individual</option>
+                              <option value="A">A</option>
+                              <option value="B">B</option>
+                              <option value="C">C</option>
+                              <option value="D">D</option>
+                              <option value="E">E</option>
+                          </select></strong></td>
+                          <td class="border p-2" colspan="2"><table width="100%">
+                              <tbody><tr>
+                                <td class="border p-2" width="30%" colspan="3"><strong><font color="#009900">Please Choose at least one Package:</font></strong></td>
+                                
+                              </tr>
+                              <tr>
+                                <td  class="border p-2"><label for="checkbox3">Motor Vehicle Savings</label>
+                                <input value="" type="checkbox" name="checkbox1" id="checkbox3"></td>
+                                <td  class="border p-2"><label for="checkbox4">Education Savings</label>
+                                <input type="checkbox" name="checkbox2" id="checkbox4"></td>
+                                <td  class="border p-2">Housing Savings
+                                  
+                                <input type="checkbox" name="checkbox3" id="checkbox2"></td>
+                              </tr>
+                              <tr>
+                                <td  class="border p-2"><label for="checkbox5">Hajj Savings</label>
+                                <input type="checkbox" name="checkbox4" id="checkbox5"></td>
+                                <td  class="border p-2"><label for="checkbox6">Ramadan Savings</label>
+                                <input type="checkbox" name="checkbox5" id="checkbox6"></td>
+                                <td  class="border p-2"><label for="checkbox7">Old Age Savings</label>
+                                <input type="checkbox" name="checkbox7" id="checkbox7"></td>
+                              </tr>
+                              <tr>
+                                <td  class="border p-2"><label for="checkbox8">Burial (Maqbarah) Savings</label>
+                                <input type="checkbox" name="checkbox8" id="checkbox8"></td>
+                                <td  class="border p-2"><label for="checkbox9">Retirement Savings</label>
+                                <input type="checkbox" name="checkbox6" id="checkbox9"></td>
+                                <td  class="border p-2"><label for="checkbox10">Ta'awun Healthcare (Insurance) Scheme</label>
+                                <input type="checkbox" name="checkbox9" id="checkbox10"></td>
+                              </tr>
+                              <tr>
+                                <td  class="border p-2"><label for="checkbox11">Law School Savings</label>
+                                  <input type="checkbox" name="checkbox10" id="checkbox11">
+                                <label for="checkbox11"></label></td>
+                                <td  class="border p-2"><label for="checkbox12">Charity Savings</label>
+                                <input type="checkbox" name="checkbox11" id="checkbox12"></td>
+                                <td  class="border p-2"><label for="checkbox13">Family Welfare Savings</label>
+                                <input type="checkbox" name="checkbox12" id="checkbox13"></td>
+                              </tr>
+                              <tr>
+                                <td  class="border p-2"><label for="checkbox14">Vacation Savings</label>
+                                <input type="checkbox" name="checkbox13" id="checkbox14"></td>
+                                <td  class="border p-2"><label for="checkbox15">Eid Kabir (Ileya) Savings</label>
+                                <input type="checkbox" name="checkbox14" id="checkbox15"></td>
+                                <td  class="border p-2"><label for="checkbox16">Parents WelfareSavings</label>
+                                <input type="checkbox" name="checkbox15" id="checkbox16"></td>
+                              </tr>
+                              <tr>
+                                <td  class="border p-2"><label for="checkbox17">Welfare-Waqf Donation</label>
+                                <input type="checkbox" name="checkbox16" id="checkbox17"></td>
+                                <td  class="border p-2"><label for="checkbox18">Contingency Collective Contributions</label>
+                                <input type="checkbox" name="checkbox17" id="checkbox18"></td>
+                                <td  class="border p-2"><label for="checkbox19">Business Investment Savings</label>
+                                <input type="checkbox" name="checkbox18" id="checkbox19"></td>
+                              </tr>
+                              <tr>
+                                <td  class="border p-2"><label for="checkbox20">Commodities Purchase Savings</label>
+                                  <input type="checkbox" name="checkbox19" id="checkbox20">
+                                  <label for="selectCategory3"></label>
+                                <label for="selectCategory4"></label></td>
+                                <td  class="border p-2"><label for="checkbox2">Child Welfare Savings</label>
+                                <input type="checkbox" name="checkbox20" id="checkbox1"></td>
+                                <td  class="border p-2"><label for="checkbox2">Nikkah Savings</label>
+                                <input type="checkbox" name="checkbox21" id="checkbox21"></td>
+                              </tr>
+                            </tbody></table></td>
+                        </tr>
+                </table>
+            </form>
+            <form>
+                <div class="form-group border yel p-2">
+                    <label for="inputNum">Source of Income </label>
+                    <input type="number" class="form-control" id="inputName" placeholder="Source of Income" required="">
+                </div>
+                <div class="form-group border pink p-2">
+                    <label for="inputNum">PROPOSED BASIC MONTHLY SAVINGS (Not to be less than ₦2, 000: 00k) </label>
+                    <input type="number" class="form-control mb-2" id="inputName" placeholder="PROPOSED BASIC MONTHLY SAVINGS" required="">
+                </div>
+            </form>
+            <table>
+                <tr bgcolor="#FFFF99">
+                    <td class="border p-2"><strong>MEANS OF IDENTIFICATION (choose any &amp; to include Staff ID if not Self-Employed) </strong></td>
+                    <td class="border p-2"><p>
+                      <select name="idCard" id="idCard" class="form-control" placeholder="Means of Identification" required="">
+                        <option></option>
+                        <option>NATIONAL ID CARD/SLIP:</option>
+                        <option>DRIVER'S LICENCE:</option>
+                        <option>INTERNATIONAL PASSPORT:</option>
+                        <option>PERMANENT VOTERS CARD:</option>
+                        <option>STAFF ID CARD (as par place of employment)</option>
+                        
+                      </select>
+                      Scan and Upload ID
+                      Card
+                      <input type="file" name="passport2" id="passport2" class="form-control" placeholder="pasport" required="required">
+                    </p>
+                    <p>&nbsp; </p></td>
+                    <td class="border p-2"><strong>ID CARD NUMBER
+                      <input type="text" name="idNumber" id="idNumber" class="form-control" placeholder="ID card number" required=""></strong></td>
+                  </tr>
+                  <tr bgcolor="#F9F" class="mt-1">
+                    <td class="border p-2"><strong>FUNCTIONAL MOBILE PHONE NUMBER (S):</strong></td>
+                      <td class="border p-2"><strong>Hot Number
+                        <input type="number" name="phoneNumber1" id="phoneNumber1" class="form-control" placeholder="Mobile phone number" required=""></strong></td>
+                      <td class="border p-2"><strong>Alternative Number
+                        <input type="number" name="phoneNumber2" id="phoneNumber2" class="form-control" placeholder="Alternative Mobile Phone Number" required=""></strong></td>
+                    </tr>
+                    <tr bgcolor="#FFFF99" class="mt-1">
+                        <td colspan="3"><strong>FUNCTIONAL WHATSAPP ENABLED PHONE NUMBER: 
+                        <input type="number" name="whatsappNumber" id="whatsappNumber" class="form-control" placeholder="Whatsapp Number" required=""></strong></td>
+                      </tr>
+                      <tr bgcolor="#F9F">
+                        <td colspan="3"><strong>FUNCTIONAL TELEGRAM ENABLED PHONE NUMBER
+                          <input type="number" name="telegramNumber" id="telegramNumber" class="form-control" placeholder="Telegram Phone Number" required=""></strong></td>
+                          
+                        </tr>
+                        <tr bgcolor="#FFFF99">
+                        <td colspan="3"><strong>FUNCTIONAL email:
+                        <input type="email" name="functionalemail" id="functionalNumber" class="form-control" placeholder="email Address" required=""></strong></td>
+                        
+                        </tr>
+                        <tr bgcolor="#CC99CC" align="center">
+                            <td colspan="3"><strong>You are just a step away from completing your expression of interest to become a member of the first Non-Loans Islamic Investment and Financing Cooperative Society in Nigeria where we cooperate for collective empowerment. Congratulations on this laudable choice!</strong></td>
+                            
+                          </tr>
+                          <tr bgcolor="#639">
+                            <td colspan="3"><strong><center><font color="#FFFFFF">PROPOSED NEXT OF KIN</font></center></strong></td>
+                            
+                          </tr>
+                          <tr bgcolor="#F9F">
+                            <td class="p-2" colspan="3"><strong>NAME IN FULL: 
+                              <input name="kinName" type="text" id="kinName" size="50" class="form-control" placeholder="Next of Kin name" required=""></strong></td>
+                             
+                            </tr>
+                            <tr bgcolor="#FFFF99">
+                            <td class="p-2" colspan="3"><strong>ADDRESS: 
+                            <input name="kinAddress" type="text" id="kinAddress" size="70" class="form-control" placeholder="Next of Kin Address" required=""></strong></td>
+                            
+                            </tr>
+                            <tr bgcolor="#F9F">
+                                <td class="p-2"><strong>PHONE NUMBER: 
+                                  <input type="phone" name="kinPhoneNumber" id="kinPhoneNumber" class="form-control" placeholder="Next of Kin Phone Number" required=""></strong></td>
+                                  <td class="p-2">&nbsp;</td>
+                                  <td class="p-2">&nbsp;</td>
+                                </tr>
+                                <tr bgcolor="#FFFF99">
+                                    <td class="p-2"> <strong>email:
+                                     <input type="email" name="kinemail" id="kinemail" class="form-control" placeholder="Next of Kin email Address" required=""></strong></td>
+                                    <td class="p-2">&nbsp;</td>
+                                    <td class="p-2">&nbsp;</td>
+                                  </tr>
+                                  <tr bgcolor="#F9F">
+                                    <td class="p-2" colspan="3"><strong>RELATIONSHIP: 
+                                      <input type="text" name="kinRelationship" id="kinRelationship" class="form-control" placeholder="Next of Kin Relationship" required=""></strong></td>
+                                      
+                                    </tr>
+                                    <tr bgcolor="#FFFF99">
+                                        <td class="p-2" colspan="3"><strong>Thanks! The confidentiality of the information supplied is hereby guaranteed.</strong></td>
+                                        
+                                      </tr>
+                                      <tr bgcolor="#F9F">
+    
+                                        <td class="p-2" colspan="3"><center> <input type="submit" class="btn btn-success" value="Submit" onclick="return validateShare()" name="register"></center></td>
+                                        
+                                      </tr>
+                </table>
+        </div>
+    </div>
+
+
+
+    <footer class="footer mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4>Our  Office</h4>
+                    <p>Tawakul Hubs<br>
+                    FLAT 2, 2ND FLOOR<br>
+                    CHIEF OKAFOR HOUSE<br>
+                    ADJACENT FIRST BANK MINI BUILDING<br>
+                    BESIDE LOVIDA PHARMACY<br>
+                    36, TAIWO ISALE ROAD, ILORIN</p>
+                    <p> <span class="iconify text-light" data-icon="ant-design:phone-outlined"></span>President: 07038998357<br> Admin: 08156551579</p>
+                    <p><span class="iconify" data-icon="akar-icons:envelope"></span> email: tawakkul.cooperative@gmail.com or info@tawakkul.org.ng</p>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="icon-contact mb-3 border rounded-pill" style="background:#C3C"><span class="iconify display-5 mx-2 my-2"            data-icon="ic:baseline-phone-iphone"></span></div>
+                            <div class="text-muted">Phone</div>
+                            <div class="lead font-weight-bold">Founder: 07038998357 <br>
+					      Admin: 08156551579.</div>
+                        </div>
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3 mt-2 border rounded-pill" style="background:#C3C"><span class="iconify display-5 mx-2 my-2" data-icon="akar-icons:envelope"></div>
+                            <div class="text-muted">email</div><a class="lead text-decoration-none font-weight-bold" href="mailto:name@example.com">info@tawakkul.org.ng</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="mb-4 ">AROUND THE WEB</h3><a class="btn btn-social mx-1" href="https://www.facebook.com/tawakkul.cooperative"><iconify-icon class="display-5" icon="et:facebook" style="color: white;"></iconify-icon></a><a class="btn  btn-social mx-1" href="https://www.twitter.com/TawakkulCoop?s=08"><span class="iconify display-5" data-icon="et:twitter" style="color: white;"></span></a><a class="btn btn-social mx-1" href="https://www.youtube.com/channel/UCnONw-l96FNHr-jnfFf4N4Q"><iconify-icon class="display-4" icon="jam:youtube-circle" style="color: white;"></iconify-icon></span></span></a>
+                    </div>
+            </div>
+             
+        </div>
+    </footer>
+    <section class="copyright py-4 text-center text-white">
+        <div class="container"><small class="pre-wrap "><strong>Copyright © 2022 <a href="" class="text-decoration-none">Tawakkul Multipurpose Cooperative Society Ltd</a>.</strong> All rights reserved. 
+        <br></small></div>
+    </section>
+
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.2/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

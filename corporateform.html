@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/tawakullogo.jpg">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tawwakul</title>
+</head>
+<body>
+    
+  <div id="navigation-section">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+            <a class="navbar-brand text-white fw-normal display-1" href="#"><img src="img/tawakullogo.jpg" class="image-fluid mx-auto w-100 rounded d-block" height="100"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#portfolio-section">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about-section">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            REGISTER WITH US
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="individual.html">Register as Individual</a></li>
+                            <li><a class="dropdown-item" href="corporate.html">Register as Corporate</a></li>
+                            <li><a class="dropdown-item" href="fee.html">Registration Fee</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="login.html">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#packages">PACKAGES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#membership">MEMBERSHIP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#management">MANAGEMENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#commitees">COMMITTEE</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="training.html">TRAINING</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <form action="#" class="container " method="post" enctype="multipart/form-data" name="form1" onsubmit="return validateSavings()">
+
+        <table width="100%" class=" table-bordered" align="center">
+        <tbody><tr class="warning" bgcolor="#639">
+          
+          <td colspan="3" class="p-2"><strong><h1><font color="#FFFFFF"><center>
+          CORPORATE MEMBERSHIP APPLICATION FORM
+          </center></font></h1></strong></td>
+          
+        </tr>
+        <tr bgcolor="#CCCCFF">
+          <td colspan="3" class="p-2"><strong><center>
+          We apply to express our interest in the corporate membership of your cooperative for and on behalf of our corporate establishment and we shall be grateful if this application can be approved.
+          </center></strong></td>
+          
+        </tr>
+        <tr bgcolor="#F9F">
+          <td width="33%" class="p-2" colspan="2"><label for="regnumber"></label>Registration Number<input type="text" name="regnumber" id="regnumber" class="form-control" placeholder="registration number" required=""></td>
+           <td width="33%" class="p-2"><label for="regdate">Date of Registration</label><input type="date" name="regdate" id="regdate" class="form-control" placeholder="registration date" required=""></td>
+         </tr>
+         <tr bgcolor="#FFFF99">
+          <td width="33%" colspan="3" class="p-2"><label for="regname">REGISTERED NAME (as stated in the Certificate)</label><input type="text" name="regname" id="regname" class="form-control" placeholder="register name" required=""></td>
+          
+         </tr>
+          <tr bgcolor="#F9F">
+          <td width="33%" colspan="3" class="p-2"><label for="regaddress">REGISTERED ADDRESS:</label><input type="text" name="regaddress" id="regaddress" class="form-control" placeholder="registered address" required=""></td>
+          
+         </tr>
+           <tr bgcolor="#FFFF99">
+          <td colspan="3" class="p-2"><label for="officeaddress">OFFICE ADDRESS (if deferent from the Registered Address)</label><input type="text" name="officeaddress" id="officeaddress" class="form-control" placeholder="office address" required=""></td>
+          
+         </tr><tr bgcolor="#F9F">
+          <td width="33%" class="p-2" colspan="3"><p>FORM OF CORPORATION/REGISTRATION (Tick as appropriate):</p>
+            <p>
+      <label>
+        <input type="radio" name="foc" value="Limited (LTD)" id="FORMOFCORPORATIONREGISTRATIONTickasappropriate:_0" required="">
+        Limited (LTD)</label>
+              <br>
+              <label>
+                <input type="radio" name="foc" value="Limited by Guarantee (LTD/GT)" id="FORMOFCORPORATIONREGISTRATIONTickasappropriate:_1">
+              Unlimited (UNLTD)</label>
+              <br>
+              <label>
+                <input type="radio" name="foc" value="Limited by Guarantee (LTD/GT)" id="FORMOFCORPORATIONREGISTRATIONTickasappropriate:_2">
+              Limited by Guarantee (LTD/GT)</label>
+               <br>
+              <label>
+                <input type="radio" name="foc" value="Hospital" id="FORMOFCORPORATIONREGISTRATIONTickasappropriate:_2">
+              Hospital</label>
+               <br>
+              <label>
+                <input type="radio" name="foc" value="NGO" id="FORMOFCORPORATIONREGISTRATIONTickasappropriate:_2">
+              NGO</label>
+              <br>
+              <label>
+                <input type="radio" name="foc" value="Business Name" id="FORMOFCORPORATIONREGISTRATIONTickasappropriate:_3">
+              Business Name</label>
+               <br>
+              <label>
+                <input type="radio" name="foc" value="School" id="FORMOFCORPORATIONREGISTRATIONTickasappropriate:_5">
+              School</label>
+              <br>
+               <label>
+                <input type="radio" name="foc" value="Cooperative Society" id="">
+              Cooperative Society</label>
+              <br>
+              <label>
+                <input type="radio" name="foc" value="Other" id="FORMOFCORPORATIONREGISTRATIONTickasappropriate:_2">
+              Others</label>
+                <input type="text" name="other" placeholder="Please Specify" id="">
+            </p>        <label for="regname"></label></td>
+          
+         </tr>
+          
+          <tr bgcolor="#FFFF99">
+          <td width="33%"class="p-2" colspan="3"><label for="natureofbus">NATURE OF BUSINESS (describe in simple terms):</label><input type="text" name="natureofbus" id="natureofbus" class="form-control" placeholder="Nature of business" required=""></td>
+         </tr><tr bgcolor="#F9F">
+          <td colspan="3" class="p-2"><table width="100%" class="table table-bordered table-condensed table-hover">
+           <tbody><tr bgcolor="#F9F">
+              <td align="center" class="p-2"><strong><font color="#FFFFFF">S/N</font></strong></td>
+              <td align="center" class="p-2"><strong><font color="#FFFFFF">MEMBERSHIP CATEGORY</font></strong></td>
+              <td align="center" class="p-2"><strong><font color="#FFFFFF">BASIC SHARES</font></strong></td>
+              <td align="center" class="p-2"><strong><font color="#FFFFFF">COST OF BASIC SHARES</font></strong></td>
+              <td align="center" class="p-2"><strong><font color="#FFFFFF">MEMBERSHIP APPLICATION FEE</font></strong></td>
+              <td align="center" class="p-2"><strong><font color="#FFFFFF">MAXIMUM SHARES POSSIBLE</font></strong></td>
+              <td align="center" class="p-2"><strong><font color="#FFFFFF">COST OF MAXIMUM SHARES</font></strong></td>
+            </tr>
+            <tr bgcolor="#FFFF99">
+              <td align="Left" class="p-2">1</td>
+              <td align="Left" class="p-2">A+ (Corporate)</td>
+              <td align="Left" class="p-2">100</td>
+              <td align="Left" class="p-2"><p>₦100,000:00k</p></td>
+              <td align="Left" class="p-2"><p>₦10,000:00k</p></td>
+              <td align="Left" class="p-2">10,000</td>
+              <td align="Left" class="p-2"><p>₦10,000,000</p></td>
+            </tr>
+          </tbody></table></td>
+          
+        </tr>
+        <tr bgcolor="#F9F">
+          <td colspan="3" class="p-2"><strong>INTENDED NUMBER OF SHARES IN TOTAL (Not less than 100 at N1, 000: 00k per Share)</strong> 
+            <label for="intendedNumberOfShare"></label>
+          <input type="number" name="intendedNumberOfShare" id="intendedNumberOfShare" class="form-control" placeholder="intended Number of Share to buy" min="100" max="5000" required=""></td>
+          
+          
+        </tr>
+        <tr bgcolor="#FFFF99">
+        
+        <td class="p-2"><strong> INTENDED MEMBERSHIP CATEGORY </strong>
+            <select name="selectCategory" id="category" class="form-control" placeholder="Select Category" required="required">
+              <option value="A+Corporate">A+ Corporate</option>
+              </select></td>
+          <td colspan="2" class="p-2"><table width="100%">
+             <tbody><tr>
+                <td width="30%" class="p-2" colspan="3"><strong><font color="#009900">Please Choose at least one Package:</font></strong></td>
+                
+              </tr>
+              <tr>
+                <td class="p-2"><label for="checkbox3">Motor Vehicle Savings</label>
+                <input value="" type="checkbox" name="checkbox1" id="checkbox3"></td>
+                <td class="p-2"><label for="checkbox4">Education Savings</label>
+                <input type="checkbox" name="checkbox2" id="checkbox4"></td>
+                <td class="p-2">Housing Savings
+                  
+                <input type="checkbox" name="checkbox3" id="checkbox2"></td>
+              </tr>
+              <tr>
+                <td class="p-2"><label for="checkbox5">Hajj Savings</label>
+                <input type="checkbox" name="checkbox4" id="checkbox5"></td>
+                <td class="p-2"><label for="checkbox6">Ramadan Savings</label>
+                <input type="checkbox" name="checkbox5" id="checkbox6"></td>
+                <td class="p-2"><label for="checkbox7">Old Age Savings</label>
+                <input type="checkbox" name="checkbox7" id="checkbox7"></td>
+              </tr>
+              <tr>
+                <td class="p-2"><label for="checkbox8">Staff Salary Savings</label>
+                <input type="checkbox" name="checkbox8" id="checkbox8"></td>
+                <td class="p-2"><label for="checkbox9">Retirement Savings</label>
+                <input type="checkbox" name="checkbox6" id="checkbox9"></td>
+                <td class="p-2"><label for="checkbox10">Ta'awun Healthcare (Insurance) Scheme</label>
+                <input type="checkbox" name="checkbox9" id="checkbox10"></td>
+              </tr>
+              <tr>
+                <td class="p-2">Staff Healthcare Savings
+                  <input type="checkbox" name="checkbox10" id="checkbox11">
+                <label for="checkbox11"></label></td>
+                <td class="p-2"><label for="checkbox12">Charity Savings</label>
+                <input type="checkbox" name="checkbox11" id="checkbox12"></td>
+                <td class="p-2"><label for="checkbox21">Running cost Savings</label>
+                <input type="checkbox" name="checkbox21" id="checkbox21"></td>
+              </tr>
+              <tr>
+                <td class="p-2"><label for="checkbox14">Vacation Savings</label>
+                <input type="checkbox" name="checkbox13" id="checkbox14"></td>
+                <td class="p-2"><label for="checkbox15">Eid Kabir (Ileya) Savings</label>
+                <input type="checkbox" name="checkbox14" id="checkbox15"></td>
+                <td class="p-2"><label for="checkbox16">Asset Acquisition Savings</label>
+                <input type="checkbox" name="checkbox15" id="checkbox16"></td>
+              </tr>
+              <tr>
+                <td class="p-2"><label for="checkbox17">Welfare-Waqf Donation</label>
+                <input type="checkbox" name="checkbox16" id="checkbox17"></td>
+                <td class="p-2"><label for="checkbox18">Contingency Collective Contributions</label>
+                <input type="checkbox" name="checkbox17" id="checkbox18"></td>
+                <td class="p-2"><label for="checkbox19">Business Investment Savings</label>
+                <input type="checkbox" name="checkbox18" id="checkbox19"></td>
+              </tr>
+              <tr>
+                <td class="p-2"><label for="checkbox20">Commodities Purchase Savings</label>
+                  <input type="checkbox" name="checkbox19" id="checkbox20">
+                  <label for="selectCategory3"></label>
+                <label for="selectCategory4"></label></td>
+                <td class="p-2"><label for="checkbox2">Staff Welfare Savings</label>
+                <input type="checkbox" name="checkbox20" id="checkbox1"></td>
+                <td class="p-2">&nbsp;</td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+    <tr bgcolor="#FFFF99">
+          <td colspan="3" class="p-2"><strong>Source of Income
+            <input type="text" name="sourceOfIncome" id="sourceofIncome" class="form-control" placeholder="Source of Income" required=""></strong></td>    
+        </tr><tr bgcolor="#F9F">
+        <td colspan="3" class="p-2"><strong>PROPOSED BASIC MONTHLY SAVINGS (Not less than N10, 000: 00k)</strong>
+          <input type="number" name="monthlySavings" id="monthlySavings" class="form-control" placeholder="PROPOSED BASIC MONTHLY SAVINGS" min="2000" required=""></td>
+         
+        </tr>
+        <tr bgcolor="#FFFF99">
+          <td colspan="3" class="p-2"><strong>INTENDED MEANS OF IDENTIFICATION: Upload Certificate of Incorporation/Registration for the Corporation               <input type="file" name="certificate" id="certificate" class="form-control" placeholder="pasport" required="required">
+          <p></p>
+          </strong></td>
+              </tr>
+        <tr bgcolor="#F9F">
+        <td class="p-2"><strong>FUNCTIONAL MOBILE PHONE NUMBER (S):</strong></td>
+          <td class="p-2"><strong>Hot Number
+            <input type="number" name="phoneNumber1" id="phoneNumber1" class="form-control" placeholder="Mobile phone number" required=""></strong></td>
+          <td class="p-2"><strong>Alternative Number
+            <input type="number" name="phoneNumber2" id="phoneNumber2" class="form-control" placeholder="Alternative Mobile Phone Number" required=""></strong></td>
+        </tr>
+        <tr bgcolor="#FFFF99">
+          <td class="p-2" colspan="3"><strong>FUNCTIONAL WHATSAPP ENABLED PHONE NUMBER: 
+          <input type="number" name="whatsappNumber" id="whatsappNumber" class="form-control" placeholder="Whatsapp Number" required=""></strong></td>
+          
+        </tr>
+        <tr bgcolor="#F9F">
+        <td class="p-2" colspan="3"><strong>FUNCTIONAL TELEGRAM ENABLED PHONE NUMBER
+          <input type="number" name="telegramNumber" id="telegramNumber" class="form-control" placeholder="Telegram Phone Number" required=""></strong></td>
+          
+        </tr>
+        <tr bgcolor="#FFFF99">
+          <td class="p-2" colspan="3"><strong>FUNCTIONAL EMAIL:</strong>
+           <input type="email" name="functionalemail" id="Functional Email Address" class="form-control" placeholder="Email Address" required=""></td>
+          
+        </tr>
+        <tr bgcolor="#CC99CC" align="center">
+          <td class="p-2" colspan="3"><strong>You are just a step away from completing your expression of interest to become a member of the first Non-Loans Islamic Investment and Financing Cooperative Society in Nigeria where we cooperate for collective empowerment. Congratulations on this laudable choice!</strong></td>
+          
+        </tr>
+         <tr bgcolor="#CC99CC" align="center">
+          <td class="p-2" colspan="3"><strong> PARTICULARS OF MAIN REPRESENTATIVE OF THE CORPORATE MEMBER</strong></td>
+          
+        </tr>
+       
+        <tr bgcolor="#FFFF99">
+          <td class="p-2" colspan="3"><strong>FULL NAME: 
+            <label for="fullName"></label>
+          <input type="text" name="rep1_fullName" id="fullName" class="form-control" placeholder="Full name" required=""></strong></td>
+              </tr>
+        <tr bgcolor="#F9F">
+        <td class="p-2"><strong> FUNCTIONAL MOBILE PHONE NUMBER (S):</strong></td>
+          <td colspan="2"><strong> Hot Number</strong>
+            <input type="number" name="rep1_phoneNumber" id="phoneNumber1" class="form-control" placeholder="Mobile phone number" required=""></td>
+        </tr>
+        <tr bgcolor="#FFFF99">
+          <td class="p-2" colspan="3"><strong>FUNCTIONAL EMAIL:</strong>
+           <input type="email" name="rep1_functionalemail1" id="functionalNumber" class="form-control" placeholder="Email Address" required=""></td>
+          
+        </tr>
+        <tr bgcolor="#F9F">
+        <td class="p-2" colspan="3"><strong>ADDRESS: </strong>
+          <input name="rep1_Address" type="text" id="currentResidenceAddress" size="70" class="form-control" placeholder="Current Residence Address" required=""></td>
+         
+        </tr> 
+        <tr bgcolor="#FFFF99">
+          <td class="p-2"><strong>MEANS OF IDENTIFICATION (choose any &amp; to include Staff ID if not Self-Employed) </strong></td>
+          <td class="p-2"><p>
+            <select name="rep1_idCard" id="idCard" class="form-control" placeholder="Means of Identification" required="">
+              <option></option>
+              <option>NATIONAL ID CARD/SLIP:</option>
+              <option>DRIVER'S LICENCE:</option>
+              <option>INTERNATIONAL PASSPORT:</option>
+              <option>PERMANENT VOTERS CARD:</option>
+              <option>STAFF ID CARD (as par place of employment)</option>
+              
+            </select>
+            Scan and Upload ID
+            Card
+            <input type="file" name="rep1_meansID1" id="passport2" class="form-control" placeholder="pasport" required="required">
+          </p>
+          <p>&nbsp; </p></td>
+          <td class="p-2"><strong>ID CARD NUMBER
+            <input type="text" name="rep1_idNumber" id="idNumber" class="form-control" placeholder="ID card number" required=""></strong></td>
+        </tr>
+        <tr bgcolor="#CC99CC" align="center">
+          <td class="p-2" colspan="3"><strong> PARTICULARS OF ALTERNATE REPRESENTATIVE OF THE CORPORATE MEMBER:</strong></td>
+          
+        </tr>
+        
+           
+         <tr bgcolor="#FFFF99">
+          <td class="p-2" colspan="3"><strong>FULL NAME: 
+            <label for="fullName"></label>
+          <input type="text" name="rep2_fullName" id="fullName" class="form-control" placeholder="Full name" required=""></strong></td>
+              </tr>
+        <tr bgcolor="#F9F">
+        <td class="p-2"><strong> FUNCTIONAL MOBILE PHONE NUMBER (S):</strong></td>
+          <td colspan="2"><strong> Hot Number</strong>
+            <input type="number" name="rep2_phoneNumber" id="phoneNumber1" class="form-control" placeholder="Mobile phone number" required=""></td>
+        </tr>
+        <tr bgcolor="#FFFF99">
+          <td class="p-2" colspan="3"><strong>FUNCTIONAL EMAIL:</strong>
+           <input type="email" name="rep2_functionalemail1" id="functionalNumber" class="form-control" placeholder="Email Address" required=""></td>
+          
+        </tr>
+        <tr bgcolor="#F9F">
+        <td class="p-2" colspan="3"><strong>ADDRESS: </strong>
+          <input name="rep2_Address" type="text" id="currentResidenceAddress" size="70" class="form-control" placeholder="Current Residence Address" required=""></td>
+         
+        </tr> 
+        <tr bgcolor="#FFFF99">
+          <td class="p-2"><strong>MEANS OF IDENTIFICATION (choose any &amp; to include Staff ID if not Self-Employed) </strong></td>
+          <td class="p-2"><p>
+            <select name="rep2_idCard" id="idCard" class="form-control" placeholder="Means of Identification" required="">
+              <option></option>
+              <option>NATIONAL ID CARD/SLIP:</option>
+              <option>DRIVER'S LICENCE:</option>
+              <option>INTERNATIONAL PASSPORT:</option>
+              <option>PERMANENT VOTERS CARD:</option>
+              <option>STAFF ID CARD (as par place of employment)</option>
+              
+            </select>
+            Scan and Upload ID
+            Card
+            <input type="file" name="rep2_meansID1" id="passport2" class="form-control" placeholder="pasport" required="required">
+          </p>
+          <p>&nbsp; </p></td>
+          <td><strong>ID CARD NUMBER
+            <input type="text" name="rep2_idNumber" id="idNumber" class="form-control" placeholder="ID card number" required=""></strong></td>
+        </tr>
+        <tr bgcolor="#F9F">
+          <td class="p-2" colspan="3"><strong>Thanks! The confidentiality of the information supplied is hereby guaranteed.</strong></td>
+          
+        </tr>
+        <tr bgcolor="#FFFF99">
+          <td class="p-2" colspan="3"><p>I hereby declare that all the information supplied above is true and correct.</p>
+            <p>By submitting this form, do you agree to be bound by the Rules, Regulations, Decisions, Directives and Bye-Law of Tawakkul Cooperative if this application is approved? 
+              </p><center> <label for="Accept"><br>
+              Accept</label>
+              <input type="checkbox" name="Accept" id="Accept" required=""></center>
+              <br>
+          <p></p></td>
+          
+        </tr>
+        <tr bgcolor="#F9F">
+        
+          <td class="p-2" colspan="3"><center> <input type="submit" class="btn btn-success" value="Submit" onclick="return validateShare()" name="register"></center></td>
+          
+        </tr>
+      </tbody></table>
+    </form>
+
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.2/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
