@@ -233,88 +233,95 @@
                     <label for="inputNum">INTENDED NUMBER OF SHARES (Not less than two at ₦1, 000: 00k per Share)  </label>
                     <input type="number" class="form-control" id="inputName" placeholder="INTENDED NUMBER OF SHARES to buy " required="">
                 </div>
-                <table>
-                    <tr bgcolor="#F9F">
-                        <td class="border p-2"><strong>INTENDED MEMBERSHIP CATEGORY 
-                            <select name="selectCategory" id="category" class="form-control" placeholder="Select Category" required="required">
-                              <option></option>
-                              <option value="A+Corporate">A+ Corporate</option>
-                              <option value="A+Individual">A+ Individual</option>
-                              <option value="A">A</option>
-                              <option value="B">B</option>
-                              <option value="C">C</option>
-                              <option value="D">D</option>
-                              <option value="E">E</option>
-                          </select></strong></td>
-                          <td class="border p-2" colspan="2"><table width="100%">
-                              <tbody><tr>
-                                <td class="border p-2" width="30%" colspan="3"><strong><font color="#009900">Please Choose at least one Package:</font></strong></td>
-                                
-                              </tr>
+              </form> 
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-12">
+                      <table  class="table2 table-responsive table-condensed table-hover" align="center">
+                                                
+                             
+                            <div class=" border pink p-2"><strong> INTENDED MEMBERSHIP CATEGORY </strong>
+                              <select name="selectCategory" id="category" class="form-control" placeholder="Select Category" required="required">
+                                <option value="A+Corporate">A+ Corporate</option>
+                                </select></div>
+                          </div>
+                       
+                          
+                          <div class=" p-2"><table width="100%">
+                            <tbody><tr>
+                               <td width="30%" class="border pink p-2" colspan="3"><strong><font color="#009900">Please Choose at least one Package:</font></strong></td>
+                               
+                             </tr>
+                             <div class="border pink p-2">
                               <tr>
-                                <td  class="border p-2"><label for="checkbox3">Motor Vehicle Savings</label>
-                                <input value="" type="checkbox" name="checkbox1" id="checkbox3"></td>
-                                <td  class="border p-2"><label for="checkbox4">Education Savings</label>
-                                <input type="checkbox" name="checkbox2" id="checkbox4"></td>
-                                <td  class="border p-2">Housing Savings
-                                  
-                                <input type="checkbox" name="checkbox3" id="checkbox2"></td>
-                              </tr>
-                              <tr>
-                                <td  class="border p-2"><label for="checkbox5">Hajj Savings</label>
-                                <input type="checkbox" name="checkbox4" id="checkbox5"></td>
-                                <td  class="border p-2"><label for="checkbox6">Ramadan Savings</label>
-                                <input type="checkbox" name="checkbox5" id="checkbox6"></td>
-                                <td  class="border p-2"><label for="checkbox7">Old Age Savings</label>
-                                <input type="checkbox" name="checkbox7" id="checkbox7"></td>
-                              </tr>
-                              <tr>
-                                <td  class="border p-2"><label for="checkbox8">Burial (Maqbarah) Savings</label>
-                                <input type="checkbox" name="checkbox8" id="checkbox8"></td>
-                                <td  class="border p-2"><label for="checkbox9">Retirement Savings</label>
-                                <input type="checkbox" name="checkbox6" id="checkbox9"></td>
-                                <td  class="border p-2"><label for="checkbox10">Ta'awun Healthcare (Insurance) Scheme</label>
-                                <input type="checkbox" name="checkbox9" id="checkbox10"></td>
-                              </tr>
-                              <tr>
-                                <td  class="border p-2"><label for="checkbox11">Law School Savings</label>
-                                  <input type="checkbox" name="checkbox10" id="checkbox11">
-                                <label for="checkbox11"></label></td>
-                                <td  class="border p-2"><label for="checkbox12">Charity Savings</label>
-                                <input type="checkbox" name="checkbox11" id="checkbox12"></td>
-                                <td  class="border p-2"><label for="checkbox13">Family Welfare Savings</label>
-                                <input type="checkbox" name="checkbox12" id="checkbox13"></td>
-                              </tr>
-                              <tr>
-                                <td  class="border p-2"><label for="checkbox14">Vacation Savings</label>
-                                <input type="checkbox" name="checkbox13" id="checkbox14"></td>
-                                <td  class="border p-2"><label for="checkbox15">Eid Kabir (Ileya) Savings</label>
-                                <input type="checkbox" name="checkbox14" id="checkbox15"></td>
-                                <td  class="border p-2"><label for="checkbox16">Parents WelfareSavings</label>
-                                <input type="checkbox" name="checkbox15" id="checkbox16"></td>
-                              </tr>
-                              <tr>
-                                <td  class="border p-2"><label for="checkbox17">Welfare-Waqf Donation</label>
-                                <input type="checkbox" name="checkbox16" id="checkbox17"></td>
-                                <td  class="border p-2"><label for="checkbox18">Contingency Collective Contributions</label>
-                                <input type="checkbox" name="checkbox17" id="checkbox18"></td>
-                                <td  class="border p-2"><label for="checkbox19">Business Investment Savings</label>
-                                <input type="checkbox" name="checkbox18" id="checkbox19"></td>
-                              </tr>
-                              <tr>
-                                <td  class="border p-2"><label for="checkbox20">Commodities Purchase Savings</label>
-                                  <input type="checkbox" name="checkbox19" id="checkbox20">
-                                  <label for="selectCategory3"></label>
-                                <label for="selectCategory4"></label></td>
-                                <td  class="border p-2"><label for="checkbox2">Child Welfare Savings</label>
-                                <input type="checkbox" name="checkbox20" id="checkbox1"></td>
-                                <td  class="border p-2"><label for="checkbox2">Nikkah Savings</label>
-                                <input type="checkbox" name="checkbox21" id="checkbox21"></td>
-                              </tr>
-                            </tbody></table></td>
-                        </tr>
-                </table>
-            </form>
+                               <td class="p-2 pink border"><label for="checkbox3">Motor Vehicle Savings</label>
+                               <input value="" type="checkbox" name="checkbox1" id="checkbox3"></td>
+                               <td class="p-2 pink border"><label for="checkbox4">Education Savings</label>
+                               <input type="checkbox" name="checkbox2" id="checkbox4"></td>
+                               <td class="p-2 pink border">Housing Savings
+                                 
+                               <input type="checkbox" name="checkbox3" id="checkbox2"></td>
+                             </tr>
+                             <tr>
+                               <td class="p-2 pink border"><label for="checkbox5">Hajj Savings</label>
+                               <input type="checkbox" name="checkbox4" id="checkbox5"></td>
+                               <td class="p-2 pink border"><label for="checkbox6">Ramadan Savings</label>
+                               <input type="checkbox" name="checkbox5" id="checkbox6"></td>
+                               <td class="p-2 pink border"><label for="checkbox7">Old Age Savings</label>
+                               <input type="checkbox" name="checkbox7" id="checkbox7"></td>
+                             </tr>
+                             <tr>
+                               <td class="p-2 pink border"><label for="checkbox8">Staff Salary Savings</label>
+                               <input type="checkbox" name="checkbox8" id="checkbox8"></td>
+                               <td class="p-2 pink border"><label for="checkbox9">Retirement Savings</label>
+                               <input type="checkbox" name="checkbox6" id="checkbox9"></td>
+                               <td class="p-2 pink border"><label for="checkbox10">Ta'awun Healthcare (Insurance) Scheme</label>
+                               <input type="checkbox" name="checkbox9" id="checkbox10"></td>
+                             </tr>
+                             <tr>
+                               <td class="p-2 pink border">Staff Healthcare Savings
+                                 <input type="checkbox" name="checkbox10" id="checkbox11">
+                               <label for="checkbox11"></label></td>
+                               <td class="p-2 pink border"><label for="checkbox12">Charity Savings</label>
+                               <input type="checkbox" name="checkbox11" id="checkbox12"></td>
+                               <td class="p-2 pink border"><label for="checkbox21">Running cost Savings</label>
+                               <input type="checkbox" name="checkbox21" id="checkbox21"></td>
+                             </tr>
+                             <tr>
+                               <td class="p-2 pink border"><label for="checkbox14">Vacation Savings</label>
+                               <input type="checkbox" name="checkbox13" id="checkbox14"></td>
+                               <td class="p-2 pink border"><label for="checkbox15">Eid Kabir (Ileya) Savings</label>
+                               <input type="checkbox" name="checkbox14" id="checkbox15"></td>
+                               <td class="p-2 pink border"><label for="checkbox16">Asset Acquisition Savings</label>
+                               <input type="checkbox" name="checkbox15" id="checkbox16"></td>
+                             </tr>
+                             <tr>
+                               <td class="p-2 pink border"><label for="checkbox17">Welfare-Waqf Donation</label>
+                               <input type="checkbox" name="checkbox16" id="checkbox17"></td>
+                               <td class="p-2 pink border"><label for="checkbox18">Contingency Collective Contributions</label>
+                               <input type="checkbox" name="checkbox17" id="checkbox18"></td>
+                               <td class="p-2 pink border"><label for="checkbox19">Business Investment Savings</label>
+                               <input type="checkbox" name="checkbox18" id="checkbox19"></td>
+                             </tr>
+                             <tr>
+                               <td class="p-2 pink border"><label for="checkbox20">Commodities Purchase Savings</label>
+                                 <input type="checkbox" name="checkbox19" id="checkbox20">
+                                 <label for="selectCategory3"></label>
+                               <label for="selectCategory4"></label></td>
+                               <td class="p-2 pink border"><label for="checkbox2">Staff Welfare Savings</label>
+                               <input type="checkbox" name="checkbox20" id="checkbox1"></td>
+                               <td class="p-2 pink border">&nbsp;</td>
+                             </tr>
+                            </div>
+                           </tbody></table></div>
+                             
+                             
+                          </tr>   
+                      </table>
+                    </div>
+                  </div>
+              </div>
+            
             <form>
                 <div class="form-group border yel p-2">
                     <label for="inputNum">Source of Income </label>
@@ -325,6 +332,7 @@
                     <input type="number" class="form-control mb-2" id="inputName" placeholder="PROPOSED BASIC MONTHLY SAVINGS" required="">
                 </div>
             </form>
+
             <table>
                 <tr bgcolor="#FFFF99">
                     <td class="border p-2"><strong>MEANS OF IDENTIFICATION (choose any &amp; to include Staff ID if not Self-Employed) </strong></td>

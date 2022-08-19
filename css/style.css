@@ -105,10 +105,13 @@ tr {
 .pink {
     background-color:#F9F;
 }
+.note1 {
+    background-color: #CC99CC;
+}
 
 
 @media(max-width: 426px) {
-    .table1 {
-        width:50% !important;
-    }
+   
+
+    
 }

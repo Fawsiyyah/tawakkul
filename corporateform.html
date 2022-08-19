@@ -70,39 +70,32 @@
         </div>
     </nav>
 </div>
-.containe
-    <form action="#" class="container " method="post" enctype="multipart/form-data" name="form1" onsubmit="return validateSavings()">
-
-        <table width="100%" class=" table-bordered" align="center">
-        <tbody><tr class="warning" bgcolor="#639">
+<div  class="container p-2">
+  <h1 class="text-center text-light  bg-secondary">
+    CORPORATE MEMBERSHIP APPLICATION FORM
+    </h1>
+  
+    <p  class="p-2 note"><strong>
+    We apply to express our interest in the corporate membership of your cooperative for and on behalf of our corporate establishment and we shall be grateful if this application can be approved.</strong>
+   </p>
+    <form>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-12">
+                 
+        <div class="d-flex ">
+          <div class="pink border p-2"><label for="regnumber"></label>Registration Number<input type="text" name="regnumber" id="regnumber" class="form-control" placeholder="registration number" required=""></div>
+           <div class="pink border p-2"><label for="regdate">Date of Registration</label><input type="date" name="regdate" id="regdate" class="form-control" placeholder="registration date" required=""></div>
+        </div>
+         
+          <div class="p-2 border yel"><label for="regname">REGISTERED NAME (as stated in the Certificate)</label><input type="text" name="regname" id="regname" class="form-control" placeholder="register name" required="">
+          </div>
           
-          <td colspan="3" class="p-2"><strong><h1><font color="#FFFFFF"><center>
-          CORPORATE MEMBERSHIP APPLICATION FORM
-          </center></font></h1></strong></td>
+          <div class="p-2 border pink"><label for="regaddress">REGISTERED ADDRESS:</label><input type="text" name="regaddress" id="regaddress" class="form-control" placeholder="registered address" required=""></div>
           
-        </tr>
-        <tr bgcolor="#CCCCFF">
-          <td colspan="3" class="p-2"><strong><center>
-          We apply to express our interest in the corporate membership of your cooperative for and on behalf of our corporate establishment and we shall be grateful if this application can be approved.
-          </center></strong></td>
+          <div class="p-2 border yel"><label for="officeaddress">OFFICE ADDRESS (if deferent from the Registered Address)</label><input type="text" name="officeaddress" id="officeaddress" class="form-control" placeholder="office address" required=""></div>
           
-        </tr>
-        <tr bgcolor="#F9F">
-          <td width="33%" class="p-2" colspan="2"><label for="regnumber"></label>Registration Number<input type="text" name="regnumber" id="regnumber" class="form-control" placeholder="registration number" required=""></td>
-           <td width="33%" class="p-2"><label for="regdate">Date of Registration</label><input type="date" name="regdate" id="regdate" class="form-control" placeholder="registration date" required=""></td>
-         </tr>
-         <tr bgcolor="#FFFF99">
-          <td width="33%" colspan="3" class="p-2"><label for="regname">REGISTERED NAME (as stated in the Certificate)</label><input type="text" name="regname" id="regname" class="form-control" placeholder="register name" required=""></td>
-          
-         </tr>
-          <tr bgcolor="#F9F">
-          <td width="33%" colspan="3" class="p-2"><label for="regaddress">REGISTERED ADDRESS:</label><input type="text" name="regaddress" id="regaddress" class="form-control" placeholder="registered address" required=""></td>
-          
-         </tr>
-           <tr bgcolor="#FFFF99">
-          <td colspan="3" class="p-2"><label for="officeaddress">OFFICE ADDRESS (if deferent from the Registered Address)</label><input type="text" name="officeaddress" id="officeaddress" class="form-control" placeholder="office address" required=""></td>
-          
-         </tr><tr bgcolor="#F9F">
+        <div bgcolor="#F9F" class="border pink">
           <td width="33%" class="p-2" colspan="3"><p>FORM OF CORPORATION/REGISTRATION (Tick as appropriate):</p>
             <p>
       <label>
@@ -143,179 +136,180 @@
                 <input type="text" name="other" placeholder="Please Specify" id="">
             </p>        <label for="regname"></label></td>
           
-         </tr>
-          
-          <tr bgcolor="#FFFF99">
-          <td width="33%"class="p-2" colspan="3"><label for="natureofbus">NATURE OF BUSINESS (describe in simple terms):</label><input type="text" name="natureofbus" id="natureofbus" class="form-control" placeholder="Nature of business" required=""></td>
-         </tr><tr bgcolor="#F9F">
-          <td colspan="3" class="p-2"><table width="100%" class="table table-bordered table-condensed table-hover">
-           <tbody><tr bgcolor="#F9F">
-              <td align="center" class="p-2"><strong><font color="#FFFFFF">S/N</font></strong></td>
-              <td align="center" class="p-2"><strong><font color="#FFFFFF">MEMBERSHIP CATEGORY</font></strong></td>
-              <td align="center" class="p-2"><strong><font color="#FFFFFF">BASIC SHARES</font></strong></td>
-              <td align="center" class="p-2"><strong><font color="#FFFFFF">COST OF BASIC SHARES</font></strong></td>
-              <td align="center" class="p-2"><strong><font color="#FFFFFF">MEMBERSHIP APPLICATION FEE</font></strong></td>
-              <td align="center" class="p-2"><strong><font color="#FFFFFF">MAXIMUM SHARES POSSIBLE</font></strong></td>
-              <td align="center" class="p-2"><strong><font color="#FFFFFF">COST OF MAXIMUM SHARES</font></strong></td>
-            </tr>
-            <tr bgcolor="#FFFF99">
-              <td align="Left" class="p-2">1</td>
-              <td align="Left" class="p-2">A+ (Corporate)</td>
-              <td align="Left" class="p-2">100</td>
-              <td align="Left" class="p-2"><p>₦100,000:00k</p></td>
-              <td align="Left" class="p-2"><p>₦10,000:00k</p></td>
-              <td align="Left" class="p-2">10,000</td>
-              <td align="Left" class="p-2"><p>₦10,000,000</p></td>
-            </tr>
-          </tbody></table></td>
-          
-        </tr>
-        <tr bgcolor="#F9F">
-          <td colspan="3" class="p-2"><strong>INTENDED NUMBER OF SHARES IN TOTAL (Not less than 100 at N1, 000: 00k per Share)</strong> 
-            <label for="intendedNumberOfShare"></label>
-          <input type="number" name="intendedNumberOfShare" id="intendedNumberOfShare" class="form-control" placeholder="intended Number of Share to buy" min="100" max="5000" required=""></td>
+          </div>
           
           
-        </tr>
-        <tr bgcolor="#FFFF99">
+          <div class="p-2 border yel"><label for="natureofbus">NATURE OF BUSINESS (describe in simple terms):</label><input type="text" name="natureofbus" id="natureofbus" class="form-control" placeholder="Nature of business" required=""></div>
         
-        <td class="p-2"><strong> INTENDED MEMBERSHIP CATEGORY </strong>
+         <div class="p-2">
+          <div class="row" align="center">
+              <div class="col-sm-4 col-md-6 col-lg-12">
+                 
+                  <table class="table1 table-responsive table-bordered table-condensed table-hover">
+                      <tbody><tr bgcolor="#F9F">
+                      <td  align="center"><strong><font color="#FFFFFF">S/N</font></strong></td>
+                         <td align="center"> <strong><font color="#FFFFFF">MEMBERSHIP CATEGORY</font></strong></td>
+                         <td align="center"> <strong><font color="#FFFFFF">BASIC SHARES</font></strong></td>
+                         <td class="d-none d-sm-none d-md-none d-lg-block" align="center"> <strong><font color="#FFFFFF">COST OF BASIC SHARES</font></strong></td>
+                         <td align="center"> <strong><font color="#FFFFFF">MEMBERSHIP APPLICATION FEE</font></strong></td>
+                         <td align="center"> <strong><font color="#FFFFFF">MAXIMUM SHARES POSSIBLE</font></strong></td>
+                         <td class="d-none d-sm-none d-md-none d-lg-block" align="center"> <strong><font color="#FFFFFF">COST OF MAXIMUM SHARES</font></strong></td>
+                       </tr>
+                       <tr bgcolor="#FFFF99">
+                       <td align="Left">1</td>
+                         <td align="Left">A+ (Corporate)</td>
+                         <td align="Left">100</td>
+                         <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦100,000:00k</p></td>
+                         <td align="Left"><p>₦10,000:00k</p></td>
+                         <td align="Left">10,000</td>
+                         <td class="d-none d-sm-none d-md-none d-lg-block" align="Left"><p>₦10,000,000</p></td>
+                       </tr>
+                       
+                     </tbody>
+                  </table>
+
+                
+              </div>
+          </div>
+          </div>
+          
+  
+          <div class="p-2 border pink"><strong>INTENDED NUMBER OF SHARES IN TOTAL (Not less than 100 at N1, 000: 00k per Share)</strong> 
+            <label for="intendedNumberOfShare"></label>
+          <input type="number" name="intendedNumberOfShare" id="intendedNumberOfShare" class="form-control" placeholder="intended Number of Share to buy" min="100" max="5000" required=""></div>
+        
+       
+        
+        <div class=" border yel p-2"><strong> INTENDED MEMBERSHIP CATEGORY </strong>
             <select name="selectCategory" id="category" class="form-control" placeholder="Select Category" required="required">
               <option value="A+Corporate">A+ Corporate</option>
-              </select></td>
-          <td colspan="2" class="p-2"><table width="100%">
+              </select></div>
+          <div class=" border yel p-2"><table width="100%">
              <tbody><tr>
                 <td width="30%" class="p-2" colspan="3"><strong><font color="#009900">Please Choose at least one Package:</font></strong></td>
                 
               </tr>
               <tr>
-                <td class="p-2"><label for="checkbox3">Motor Vehicle Savings</label>
+                <td class="p-2 border"><label for="checkbox3">Motor Vehicle Savings</label>
                 <input value="" type="checkbox" name="checkbox1" id="checkbox3"></td>
-                <td class="p-2"><label for="checkbox4">Education Savings</label>
+                <td class="p-2 border"><label for="checkbox4">Education Savings</label>
                 <input type="checkbox" name="checkbox2" id="checkbox4"></td>
-                <td class="p-2">Housing Savings
+                <td class="p-2 border">Housing Savings
                   
                 <input type="checkbox" name="checkbox3" id="checkbox2"></td>
               </tr>
               <tr>
-                <td class="p-2"><label for="checkbox5">Hajj Savings</label>
+                <td class="p-2 border"><label for="checkbox5">Hajj Savings</label>
                 <input type="checkbox" name="checkbox4" id="checkbox5"></td>
-                <td class="p-2"><label for="checkbox6">Ramadan Savings</label>
+                <td class="p-2 border"><label for="checkbox6">Ramadan Savings</label>
                 <input type="checkbox" name="checkbox5" id="checkbox6"></td>
-                <td class="p-2"><label for="checkbox7">Old Age Savings</label>
+                <td class="p-2 border"><label for="checkbox7">Old Age Savings</label>
                 <input type="checkbox" name="checkbox7" id="checkbox7"></td>
               </tr>
               <tr>
-                <td class="p-2"><label for="checkbox8">Staff Salary Savings</label>
+                <td class="p-2 border"><label for="checkbox8">Staff Salary Savings</label>
                 <input type="checkbox" name="checkbox8" id="checkbox8"></td>
-                <td class="p-2"><label for="checkbox9">Retirement Savings</label>
+                <td class="p-2 border"><label for="checkbox9">Retirement Savings</label>
                 <input type="checkbox" name="checkbox6" id="checkbox9"></td>
-                <td class="p-2"><label for="checkbox10">Ta'awun Healthcare (Insurance) Scheme</label>
+                <td class="p-2 border"><label for="checkbox10">Ta'awun Healthcare (Insurance) Scheme</label>
                 <input type="checkbox" name="checkbox9" id="checkbox10"></td>
               </tr>
               <tr>
-                <td class="p-2">Staff Healthcare Savings
+                <td class="p-2 border">Staff Healthcare Savings
                   <input type="checkbox" name="checkbox10" id="checkbox11">
                 <label for="checkbox11"></label></td>
-                <td class="p-2"><label for="checkbox12">Charity Savings</label>
+                <td class="p-2 border"><label for="checkbox12">Charity Savings</label>
                 <input type="checkbox" name="checkbox11" id="checkbox12"></td>
-                <td class="p-2"><label for="checkbox21">Running cost Savings</label>
+                <td class="p-2 border"><label for="checkbox21">Running cost Savings</label>
                 <input type="checkbox" name="checkbox21" id="checkbox21"></td>
               </tr>
               <tr>
-                <td class="p-2"><label for="checkbox14">Vacation Savings</label>
+                <td class="p-2 border"><label for="checkbox14">Vacation Savings</label>
                 <input type="checkbox" name="checkbox13" id="checkbox14"></td>
-                <td class="p-2"><label for="checkbox15">Eid Kabir (Ileya) Savings</label>
+                <td class="p-2 border"><label for="checkbox15">Eid Kabir (Ileya) Savings</label>
                 <input type="checkbox" name="checkbox14" id="checkbox15"></td>
-                <td class="p-2"><label for="checkbox16">Asset Acquisition Savings</label>
+                <td class="p-2 border"><label for="checkbox16">Asset Acquisition Savings</label>
                 <input type="checkbox" name="checkbox15" id="checkbox16"></td>
               </tr>
               <tr>
-                <td class="p-2"><label for="checkbox17">Welfare-Waqf Donation</label>
+                <td class="p-2 border"><label for="checkbox17">Welfare-Waqf Donation</label>
                 <input type="checkbox" name="checkbox16" id="checkbox17"></td>
-                <td class="p-2"><label for="checkbox18">Contingency Collective Contributions</label>
+                <td class="p-2 border"><label for="checkbox18">Contingency Collective Contributions</label>
                 <input type="checkbox" name="checkbox17" id="checkbox18"></td>
-                <td class="p-2"><label for="checkbox19">Business Investment Savings</label>
+                <td class="p-2 border"><label for="checkbox19">Business Investment Savings</label>
                 <input type="checkbox" name="checkbox18" id="checkbox19"></td>
               </tr>
               <tr>
-                <td class="p-2"><label for="checkbox20">Commodities Purchase Savings</label>
+                <td class="p-2 border"><label for="checkbox20">Commodities Purchase Savings</label>
                   <input type="checkbox" name="checkbox19" id="checkbox20">
                   <label for="selectCategory3"></label>
                 <label for="selectCategory4"></label></td>
-                <td class="p-2"><label for="checkbox2">Staff Welfare Savings</label>
+                <td class="p-2 border"><label for="checkbox2">Staff Welfare Savings</label>
                 <input type="checkbox" name="checkbox20" id="checkbox1"></td>
-                <td class="p-2">&nbsp;</td>
+                <td class="p-2 border">&nbsp;</td>
               </tr>
-            </tbody></table></td>
-        </tr>
-    <tr bgcolor="#FFFF99">
-          <td colspan="3" class="p-2"><strong>Source of Income
-            <input type="text" name="sourceOfIncome" id="sourceofIncome" class="form-control" placeholder="Source of Income" required=""></strong></td>    
-        </tr><tr bgcolor="#F9F">
-        <td colspan="3" class="p-2"><strong>PROPOSED BASIC MONTHLY SAVINGS (Not less than N10, 000: 00k)</strong>
-          <input type="number" name="monthlySavings" id="monthlySavings" class="form-control" placeholder="PROPOSED BASIC MONTHLY SAVINGS" min="2000" required=""></td>
-         
-        </tr>
-        <tr bgcolor="#FFFF99">
-          <td colspan="3" class="p-2"><strong>INTENDED MEANS OF IDENTIFICATION: Upload Certificate of Incorporation/Registration for the Corporation               <input type="file" name="certificate" id="certificate" class="form-control" placeholder="pasport" required="required">
-          <p></p>
-          </strong></td>
-              </tr>
-        <tr bgcolor="#F9F">
-        <td class="p-2"><strong>FUNCTIONAL MOBILE PHONE NUMBER (S):</strong></td>
-          <td class="p-2"><strong>Hot Number
-            <input type="number" name="phoneNumber1" id="phoneNumber1" class="form-control" placeholder="Mobile phone number" required=""></strong></td>
-          <td class="p-2"><strong>Alternative Number
-            <input type="number" name="phoneNumber2" id="phoneNumber2" class="form-control" placeholder="Alternative Mobile Phone Number" required=""></strong></td>
-        </tr>
-        <tr bgcolor="#FFFF99">
-          <td class="p-2" colspan="3"><strong>FUNCTIONAL WHATSAPP ENABLED PHONE NUMBER: 
-          <input type="number" name="whatsappNumber" id="whatsappNumber" class="form-control" placeholder="Whatsapp Number" required=""></strong></td>
-          
-        </tr>
-        <tr bgcolor="#F9F">
-        <td class="p-2" colspan="3"><strong>FUNCTIONAL TELEGRAM ENABLED PHONE NUMBER
-          <input type="number" name="telegramNumber" id="telegramNumber" class="form-control" placeholder="Telegram Phone Number" required=""></strong></td>
-          
-        </tr>
-        <tr bgcolor="#FFFF99">
-          <td class="p-2" colspan="3"><strong>FUNCTIONAL EMAIL:</strong>
-           <input type="email" name="functionalemail" id="Functional Email Address" class="form-control" placeholder="Email Address" required=""></td>
-          
-        </tr>
-        <tr bgcolor="#CC99CC" align="center">
-          <td class="p-2" colspan="3"><strong>You are just a step away from completing your expression of interest to become a member of the first Non-Loans Islamic Investment and Financing Cooperative Society in Nigeria where we cooperate for collective empowerment. Congratulations on this laudable choice!</strong></td>
-          
-        </tr>
-         <tr bgcolor="#CC99CC" align="center">
-          <td class="p-2" colspan="3"><strong> PARTICULARS OF MAIN REPRESENTATIVE OF THE CORPORATE MEMBER</strong></td>
-          
-        </tr>
+            </tbody></table></div>
+        
+    
+          <div class=" border yel p-2"><strong>Source of Income
+            <input type="text" name="sourceOfIncome" id="sourceofIncome" class="form-control" placeholder="Source of Income" required=""></strong></div>    
        
-        <tr bgcolor="#FFFF99">
-          <td class="p-2" colspan="3"><strong>FULL NAME: 
-            <label for="fullName"></label>
-          <input type="text" name="rep1_fullName" id="fullName" class="form-control" placeholder="Full name" required=""></strong></td>
-              </tr>
-        <tr bgcolor="#F9F">
-        <td class="p-2"><strong> FUNCTIONAL MOBILE PHONE NUMBER (S):</strong></td>
-          <td colspan="2"><strong> Hot Number</strong>
-            <input type="number" name="rep1_phoneNumber" id="phoneNumber1" class="form-control" placeholder="Mobile phone number" required=""></td>
-        </tr>
-        <tr bgcolor="#FFFF99">
-          <td class="p-2" colspan="3"><strong>FUNCTIONAL EMAIL:</strong>
-           <input type="email" name="rep1_functionalemail1" id="functionalNumber" class="form-control" placeholder="Email Address" required=""></td>
+        <div class=" border pink p-2"><strong>PROPOSED BASIC MONTHLY SAVINGS (Not less than N10, 000: 00k)</strong>
+          <input type="number" name="monthlySavings" id="monthlySavings" class="form-control" placeholder="PROPOSED BASIC MONTHLY SAVINGS" min="2000" required=""></div>
+      
+          <div class=" border yel p-2"><strong>INTENDED MEANS OF IDENTIFICATION: Upload Certificate of Incorporation/Registration for the Corporation               <input type="file" name="certificate" id="certificate" class="form-control" placeholder="pasport" required="required">
+          <p></p>
+          </strong></div>
+              
+        <div class="d-flex">
+        <div class="col-lg-6 border pink p-2"><strong>FUNCTIONAL MOBILE PHONE NUMBER (S):</strong></div>
+          <div class="col-lg-3 border pink p-2"><strong>Hot Number
+            <input type="number" name="phoneNumber1" id="phoneNumber1" class="form-control" placeholder="Mobile phone number" required=""></strong></div>
+          <div class="col-lg-3 border pink p-2"><strong>Alternative Number
+            <input type="number" name="phoneNumber2" id="phoneNumber2" class="form-control" placeholder="Alternative Mobile Phone Number" required=""></strong></div>
+        </div>
+       
+       
+          <div class=" border yel p-2"><strong>FUNCTIONAL WHATSAPP ENABLED PHONE NUMBER: 
+          <input type="number" name="whatsappNumber" id="whatsappNumber" class="form-control" placeholder="Whatsapp Number" required=""></strong></div>
+          
+       
+        <div class=" border pink p-2"><strong>FUNCTIONAL TELEGRAM ENABLED PHONE NUMBER
+          <input type="number" name="telegramNumber" id="telegramNumber" class="form-control" placeholder="Telegram Phone Number" required=""></strong></div>
+          
+        
+                  <div class=" border yel p-2"><strong>FUNCTIONAL EMAIL:</strong>
+           <input type="email" name="functionalemail" id="Functional Email Address" class="form-control" placeholder="Email Address" required=""></div>
+        
+        <tr bgcolor="" align="center">
+          <div class="p-2 note1" colspan="3"><strong>You are just a step away from completing your expression of interest to become a member of the first Non-Loans Islamic Investment and Financing Cooperative Society in Nigeria where we cooperate for collective empowerment. Congratulations on this laudable choice!</strong></div>
           
         </tr>
-        <tr bgcolor="#F9F">
-        <td class="p-2" colspan="3"><strong>ADDRESS: </strong>
-          <input name="rep1_Address" type="text" id="currentResidenceAddress" size="70" class="form-control" placeholder="Current Residence Address" required=""></td>
          
-        </tr> 
-        <tr bgcolor="#FFFF99">
-          <td class="p-2"><strong>MEANS OF IDENTIFICATION (choose any &amp; to include Staff ID if not Self-Employed) </strong></td>
-          <td class="p-2"><p>
+          <div class="p-2 border note1" colspan="3"><strong> PARTICULARS OF MAIN REPRESENTATIVE OF THE CORPORATE MEMBER</strong></div>
+          
+        
+       
+        
+          <div class=" border yel p-2"><strong>FULL NAME: 
+            <label for="fullName"></label>
+          <input type="text" name="rep1_fullName" id="fullName" class="form-control" placeholder="Full name" required=""></strong></div>
+             
+        <div class=" border pink p-2"><strong> FUNCTIONAL MOBILE PHONE NUMBER (S):</strong></td>
+          <td colspan="2"><strong> Hot Number</strong>
+            <input type="number" name="rep1_phoneNumber" id="phoneNumber1" class="form-control" placeholder="Mobile phone number" required=""></div>
+        
+       
+          <div class=" border yel p-2"><strong>FUNCTIONAL EMAIL:</strong>
+           <input type="email" name="rep1_functionalemail1" id="functionalNumber" class="form-control" placeholder="Email Address" required=""></div>
+          
+       
+        <div class=" border pink p-2"><strong>ADDRESS: </strong>
+          <input name="rep1_Address" type="text" id="currentResidenceAddress" size="70" class="form-control" placeholder="Current Residence Address" required=""></div>
+         
+        <div class="d-flex">
+          <div class=" border yel p-2"><strong>MEANS OF IDENTIFICATION (choose any &amp; to include Staff ID if not Self-Employed) </strong></div>
+          <div class=" border yel p-2""><p>
             <select name="rep1_idCard" id="idCard" class="form-control" placeholder="Means of Identification" required="">
               <option></option>
               <option>NATIONAL ID CARD/SLIP:</option>
@@ -329,39 +323,37 @@
             Card
             <input type="file" name="rep1_meansID1" id="passport2" class="form-control" placeholder="pasport" required="required">
           </p>
-          <p>&nbsp; </p></td>
-          <td class="p-2"><strong>ID CARD NUMBER
-            <input type="text" name="rep1_idNumber" id="idNumber" class="form-control" placeholder="ID card number" required=""></strong></td>
-        </tr>
-        <tr bgcolor="#CC99CC" align="center">
-          <td class="p-2" colspan="3"><strong> PARTICULARS OF ALTERNATE REPRESENTATIVE OF THE CORPORATE MEMBER:</strong></td>
+          <p>&nbsp; </p></div>
+          <div class=" border yel p-2"><strong>ID CARD NUMBER
+            <input type="text" name="rep1_idNumber" id="idNumber" class="form-control" placeholder="ID card number" required=""></strong></div>
+          </div>
+       
+          <div class="p-2 border note1" colspan="3"><strong> PARTICULARS OF ALTERNATE REPRESENTATIVE OF THE CORPORATE MEMBER:</strong></div>
           
-        </tr>
+       
         
            
-         <tr bgcolor="#FFFF99">
-          <td class="p-2" colspan="3"><strong>FULL NAME: 
-            <label for="fullName"></label>
-          <input type="text" name="rep2_fullName" id="fullName" class="form-control" placeholder="Full name" required=""></strong></td>
-              </tr>
-        <tr bgcolor="#F9F">
-        <td class="p-2"><strong> FUNCTIONAL MOBILE PHONE NUMBER (S):</strong></td>
-          <td colspan="2"><strong> Hot Number</strong>
-            <input type="number" name="rep2_phoneNumber" id="phoneNumber1" class="form-control" placeholder="Mobile phone number" required=""></td>
-        </tr>
-        <tr bgcolor="#FFFF99">
-          <td class="p-2" colspan="3"><strong>FUNCTIONAL EMAIL:</strong>
-           <input type="email" name="rep2_functionalemail1" id="functionalNumber" class="form-control" placeholder="Email Address" required=""></td>
-          
-        </tr>
-        <tr bgcolor="#F9F">
-        <td class="p-2" colspan="3"><strong>ADDRESS: </strong>
-          <input name="rep2_Address" type="text" id="currentResidenceAddress" size="70" class="form-control" placeholder="Current Residence Address" required=""></td>
          
-        </tr> 
-        <tr bgcolor="#FFFF99">
-          <td class="p-2"><strong>MEANS OF IDENTIFICATION (choose any &amp; to include Staff ID if not Self-Employed) </strong></td>
-          <td class="p-2"><p>
+          <div class=" border yel p-2"><strong>FULL NAME: 
+            <label for="fullName"></label>
+          <input type="text" name="rep2_fullName" id="fullName" class="form-control" placeholder="Full name" required=""></strong></div>
+             
+        <div class="d-flex">
+        <div class=" border pink p-2"><strong> FUNCTIONAL MOBILE PHONE NUMBER (S):</strong></div>
+          <div class=" border pink p-2"><strong> Hot Number</strong>
+            <input type="number" name="rep2_phoneNumber" id="phoneNumber1" class="form-control" placeholder="Mobile phone number" required=""></div>
+          </div>
+        
+          <div class=" border yel p-2"><strong>FUNCTIONAL EMAIL:</strong>
+           <input type="email" name="rep2_functionalemail1" id="functionalNumber" class="form-control" placeholder="Email Address" required=""></div>
+        
+       
+        <div class=" border pink p-2"><strong>ADDRESS: </strong>
+          <input name="rep2_Address" type="text" id="currentResidenceAddress" size="70" class="form-control" placeholder="Current Residence Address" required=""></div>
+         
+        <div class="d-flex">
+          <div class=" border yel p-2"><strong>MEANS OF IDENTIFICATION (choose any &amp; to include Staff ID if not Self-Employed) </strong></div>
+          <div class=" border yel p-2"><p>
             <select name="rep2_idCard" id="idCard" class="form-control" placeholder="Means of Identification" required="">
               <option></option>
               <option>NATIONAL ID CARD/SLIP:</option>
@@ -375,31 +367,31 @@
             Card
             <input type="file" name="rep2_meansID1" id="passport2" class="form-control" placeholder="pasport" required="required">
           </p>
-          <p>&nbsp; </p></td>
-          <td><strong>ID CARD NUMBER
-            <input type="text" name="rep2_idNumber" id="idNumber" class="form-control" placeholder="ID card number" required=""></strong></td>
-        </tr>
-        <tr bgcolor="#F9F">
-          <td class="p-2" colspan="3"><strong>Thanks! The confidentiality of the information supplied is hereby guaranteed.</strong></td>
+          <p>&nbsp; </p></div>
+          <div class=" border yel p-2"><strong>ID CARD NUMBER
+            <input type="text" name="rep2_idNumber" id="idNumber" class="form-control" placeholder="ID card number" required=""></strong></div>
+          </div>
+        
+          <div class=" border pink p-2"><strong>Thanks! The confidentiality of the information supplied is hereby guaranteed.</strong></div>
           
-        </tr>
-        <tr bgcolor="#FFFF99">
-          <td class="p-2" colspan="3"><p>I hereby declare that all the information supplied above is true and correct.</p>
+       
+          <div class=" border yel p-2"><p>I hereby declare that all the information supplied above is true and correct.</p>
             <p>By submitting this form, do you agree to be bound by the Rules, Regulations, Decisions, Directives and Bye-Law of Tawakkul Cooperative if this application is approved? 
               </p><center> <label for="Accept"><br>
               Accept</label>
               <input type="checkbox" name="Accept" id="Accept" required=""></center>
               <br>
-          <p></p></td>
+          <p></p></div>
+                
+          <div class=" border pink p-2"><center> <input type="submit" class="btn btn-success" value="Submit" onclick="return validateShare()" name="register"></center></div>
           
-        </tr>
-        <tr bgcolor="#F9F">
         
-          <td class="p-2" colspan="3"><center> <input type="submit" class="btn btn-success" value="Submit" onclick="return validateShare()" name="register"></center></td>
-          
-        </tr>
-      </tbody></table>
-    </form>
+      </div>
+         </div>
+      </div>
+      </form>
+       
+  </div>
 
 
 
